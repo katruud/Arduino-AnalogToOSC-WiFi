@@ -16,6 +16,10 @@ You must also set the destination IP variable to match that of your OSC destinat
 
 The delay function may be adjusted to modify update rate. It is currently set to 20 Hz
 
+For testing, the serial print function may be enabled. This will display the sensor values calculated by the program before they are sent over WiFi.
+
+For testing OSC quickly, [Protokol](https://hexler.net/protokol) is useful. 
+
 ## VRChat Setup
 
 The program is built to send an OSC message to VRChat. A float is sent to the FootLeftFloat parameter. This can be used to drive an animation on your avatar, for example to move toe position realistically.
