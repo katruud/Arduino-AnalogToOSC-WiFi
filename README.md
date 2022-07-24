@@ -4,7 +4,7 @@ Send OSC values over WiFi based on an analog Arduino input
 Developed for an Arduino Nano RP2040 with an adafruit [Short Flex Sensor](https://www.adafruit.com/product/1070). 
 
 ## Setup
-Creat a voltage divider circuit with the flex sensor. In my testing, I used a 44k Ohm resistor. Power can be provided to the circuit from the built-in 5v pin.
+Create a voltage divider circuit with the flex sensor. In my testing, I used a 44k Ohm resistor. Power can be provided to the circuit from the built-in 5v pin.
 
 Set your SSID name and password in the arduino_secrets.h file.
 
