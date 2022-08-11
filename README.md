@@ -10,7 +10,7 @@ Create a voltage divider circuit with the flex sensor. In my testing, I used a 4
 
 Set your SSID name and password in the arduino_secrets.h file.
 
-Depending on your application, the variables calhigh and callow will need to be set to capture the complete range of motion. You may uncomment the serial print lines for debugging your specific values.
+The program will automaticall find the high and low range of the sensor by tracking min and max, and sends an OSC float in relation to these limits
 
 You must also set the destination IP variable to match that of your OSC destination. 
 
@@ -28,7 +28,7 @@ The program is built to send an OSC message to VRChat. A float is sent to the Fo
 
 ## To do
 
-- Troubleshoot performance issues related to WiFi, test bluetooth?
+- Troubleshoot performance issues related to WiFi?
 - Develop portable power and mounting solution
 - Robustly mount flex sensor to shoe
 - Test other/cheaper SOC such as the [Nano 33 IoT](https://store-usa.arduino.cc/products/arduino-nano-33-iot-with-headers)
