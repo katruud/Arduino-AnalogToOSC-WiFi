@@ -10,7 +10,7 @@ Create a voltage divider circuit with the flex sensor. In my testing, I used a 4
 
 Set your SSID name and password in the arduino_secrets.h file.
 
-The program will automaticall find the high and low range of the sensor by tracking min and max, and sends an OSC float in relation to these limits
+The program will automatically find the high and low range of the sensor by tracking min and max, and sends an OSC float in relation to these limits
 
 You must also set the destination IP variable to match that of your OSC destination. 
 
